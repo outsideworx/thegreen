@@ -1,6 +1,6 @@
 User-agent: *
 Disallow: /
 Allow: /sitemap.xml
-Allow: /index.html
+Allow: /home.html
 
 Sitemap: https://outsideworx.net/clients/thegreen/sitemap.xml
