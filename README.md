@@ -1,7 +1,7 @@
 ...
 
-[outsideworx.net/clients/gogreengo](https://sites.outsideworx.net:9007)
+[outsideworx.net/clients/thegreen](https://sites.outsideworx.net:9007)
 
 ---
 
-![design_gogreengo]()
+![design_thegreen]()

@@ -3,4 +3,4 @@ Disallow: /
 Allow: /sitemap.xml
 Allow: /index.html
 
-Sitemap: https://outsideworx.net/clients/gogreengo/sitemap.xml
+Sitemap: https://outsideworx.net/clients/thegreen/sitemap.xml
