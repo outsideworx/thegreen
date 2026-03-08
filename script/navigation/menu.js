@@ -5,9 +5,9 @@ function positionLinks() {
     const imgNaturalHeight = 1080;
     const navigation = [
         {element: document.getElementById("gel"), x: 350, y: 420, width: 300},
-        {element: document.getElementById("patch"), x: 651, y: 420, width: 300},
+        {element: document.getElementById("tape"), x: 651, y: 420, width: 300},
         {element: document.getElementById("snus"), x: 952, y: 420, width: 300},
-        {element: document.getElementById("tape"), x: 1253, y: 420, width: 300}
+        {element: document.getElementById("patch"), x: 1253, y: 420, width: 300}
     ];
 
     const imgContainer = img.parentElement;
