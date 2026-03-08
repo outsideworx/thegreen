@@ -10,5 +10,15 @@
     <img id="flipImgId" src="" width="400" alt="">
 </div>
 <script src="script/orientation/landscape.js"></script>
+<script>
+    function checkPassword() {
+        var password = prompt("Enter client secret to view this page:");
+        if (password !== "green007") {
+            alert("Incorrect password.");
+            window.location.href = "about:blank";
+        }
+    }
+    checkPassword();
+</script>
 </body>
 </html>
