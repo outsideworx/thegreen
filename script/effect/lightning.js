@@ -33,6 +33,7 @@ function startStorm(e) {
         return;
     }
 
+    createLightning(pointerX, pointerY);
     lightningTimer = setInterval(() => {
         createLightning(pointerX, pointerY);
     }, 200);
