@@ -44,3 +44,11 @@ body {
     background: rgba(255, 255, 255, 0.0);
     cursor: pointer;
 }
+
+.lightning {
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
