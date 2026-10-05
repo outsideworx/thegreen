@@ -1,13 +1,10 @@
 function positionLinks() {
     const img = document.getElementById("main-image");
 
-    // Coordinates are authored in a 1920x1080 grid. The displayed image box is
-    // derived from the image's actual natural dimensions (object-fit: contain),
-    // so positioning stays correct for any image aspect ratio.
-    const refWidth = 1920;
-    const refHeight = 1080;
+    const refWidth = 2852;
+    const refHeight = 2000;
     const navigation = [
-        {element: document.getElementById("home"), x: 1335, y: 710},
+        {element: document.getElementById("home"), x: 2150, y: 1350},
     ];
 
     const imgContainer = img.parentElement;
@@ -24,15 +21,14 @@ function positionLinks() {
     const offsetX = (containerRect.width - displayedWidth) / 2;
     const offsetY = (containerRect.height - displayedHeight) / 2;
 
-    // Map the 1920x1080 authoring grid onto the real displayed image box.
     const gridScaleX = displayedWidth / refWidth;
     const gridScaleY = displayedHeight / refHeight;
 
     navigation.forEach(hs => {
         hs.element.style.left = `${offsetX + hs.x * gridScaleX}px`;
         hs.element.style.top = `${offsetY + hs.y * gridScaleY}px`;
-        hs.element.style.width = `${180 * gridScaleX}px`;
-        hs.element.style.height = `${180 * gridScaleY}px`;
+        hs.element.style.width = `${260 * gridScaleX}px`;
+        hs.element.style.height = `${260 * gridScaleY}px`;
     });
 }
 
